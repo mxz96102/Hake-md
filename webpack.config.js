@@ -18,6 +18,10 @@ module.exports = {
 
   resolve: {
     extensions: ['.jsx', '.js', '.json'],
+    alias: {
+      'react': 'qreact',
+      'react-dom': 'qreact',
+    }
   },
 
   module: {
